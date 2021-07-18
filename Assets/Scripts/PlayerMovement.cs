@@ -82,11 +82,7 @@ public class PlayerMovement : MonoBehaviour
 
         //PUT CODE BELOW HERE
 
-
-        sound();
-        move(10);
-        yield return new WaitForSeconds(0.5f);
-        jump();
+        say("Hello!");
 
 
 
